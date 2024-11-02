@@ -1,0 +1,28 @@
+.bg-maison {
+    background-color: rgba(39, 109, 200, 0.85);
+    width: 1500px;
+    height: 800px;
+    position: relative; /* Nécessaire pour que la maison puisse être positionnée absolument */
+}
+
+.maison {
+    background-color: rgb(138, 129, 129);
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    bottom: 0; /* Place la maison au bas du conteneur */
+    left: 25%; /* Centre la maison horizontalement */
+    transform: translateX(-50%); /* Ajustement pour centrer la maison */
+}
+.tois {
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent; /* Demi-largeur du triangle */
+    border-right: 125px solid transparent; /* Demi-largeur du triangle */
+    border-bottom: 100px solid #322c2c; /* Hauteur et couleur du triangle */
+    position: absolute;
+    bottom: 300px; /* Ajuste la position en fonction de ta maison */
+    left: 25%; /* Centre le toit horizontalement */
+    transform: translateX(-50%); /* Centrage parfait du toit */
+
+}
